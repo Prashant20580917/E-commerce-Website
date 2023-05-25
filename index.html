@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Pritam Nursery | E-commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logox.png" alt="" width="300px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+              <li><a href="admin.html">Admin Panel</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="images/cart.png" width="30px" height="30px"
+          /></a>
+          <img src="images/menu.svg" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Blooming Beauty, Right at Your Doorstep!</h1>
+            <p>
+              With each seed sown and each flower tended, <br />
+              garden becomes a symphony of colors, fragrances, and tranquility
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/p3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------featured categories----->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/g1.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/g2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/g3.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------featured products----->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="productdetail.html"><img src="images/pro1.jpg" /></a>
+          <a href="productdetail.html"><h4>Japanese Bonsai</h4></a>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/pro2.jpg" />
+          <h4>Lucky Plant</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$15.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/pro3.jpg" />
+          <h4>Cycus</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$19.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/pro4.jpg" />
+          <h4>White Tulips</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$18.00</p>
+        </div>
+      </div>
+
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/pro5.jpg" />
+          <h4>Japanese Bonsai</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$26.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/pro6.jpg" />
+          <h4>Lucky Plant</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$28.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/pro7.jpg" />
+          <h4>Cycus</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$19.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/pro8.jpg" />
+          <h4>White Tulips</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$23.00</p>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img src="images/pro9.jpg" />
+            <h4>White Tulips</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$30.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/pro10.jpg" />
+            <h4>White Tulips</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$22.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/pro11.jpg" />
+            <h4>White Tulips</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$18.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/pro12.jpg" />
+            <h4>Red Tulips</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$40.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----offer---->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/offer.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Avaiable on Pritam Nursery</p>
+            <h1>Snake Plant</h1>
+            <small
+              >The snake plant is a low-maintenance houseplant with striking
+              snake-like leaves. It thrives in low light, purifies the air, and
+              requires minimal care. Perfect for beginners and busy
+              people.</small
+            >
+            <p></p>
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----testimonial------->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              The plants I purchased have exceeded my expectations in terms of
+              their growth, health, and visual appeal. They have truly enhanced
+              my living environment and brought me a renewed sense of joy.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user2.jpg" />
+            <h3>Hazel</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              The plants I recently purchased from a Pritam nursery has been a
+              delightful addition to my home. Each plant brings a unique touch
+              of nature and beauty to my space.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user.jpg" />
+            <h3>Preetam</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              These plants have truly transformed my home into a vibrant and
+              refreshing sanctuary. I'm thrilled with the quality and beauty
+              they bring to my space.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user3.jpg" />
+            <h3>Sophia</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----brands----->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/logo1.png" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo2.png" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo3.png" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo4.png" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo5.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----footer----->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download Our App for Android and ios device.</p>
+            <div class="app-logo">
+              <img src="images/playstore.png" style=""/>
+              <img src="images/appstore.png" alt="" style="position: relative; top: -6px;">
+              
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logoy.png" />
+            <p>
+              Our purpose is to cultivate beautiful green spaces, inspire a love
+              for plants, and provide high-quality products and expertise to
+              help people connect with nature through gardening.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Products</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow US</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">
+          Copyright 2023 Pritam Nursery. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <!-----js for toggle menu----->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
